@@ -39,11 +39,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.google.mlkit.vision.demo'
+    androidResources {
+        noCompress 'tflite'
+    }
 
     // Do NOT compress tflite model files (need to call out to developers!)
-    aaptOptions {
-        noCompress "tflite"
-    }
 }
 
 repositories {
@@ -52,7 +53,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.22'
     implementation 'androidx.multidex:multidex:2.0.1'
 
     // Barcode model
@@ -122,20 +123,20 @@ dependencies {
 
     // -------------------------------------------------------
 
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.8.9'
     implementation 'com.google.guava:guava:27.1-android'
 
     // For how to setup gradle dependencies in Android X, see:
     // https://developer.android.com/training/testing/set-up-project#gradle-dependencies
     // Core library
-    androidTestImplementation 'androidx.test:core:1.4.0'
+    androidTestImplementation 'androidx.test:core:1.5.0'
 
     // AndroidJUnitRunner and JUnit Rules
-    androidTestImplementation 'androidx.test:runner:1.4.0'
-    androidTestImplementation 'androidx.test:rules:1.4.0'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
 
     // Assertions
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
 
     // ViewModel and LiveData
     implementation "androidx.lifecycle:lifecycle-livedata:2.3.1"

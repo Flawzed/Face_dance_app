@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.mlkit:image-labeling-common:18.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/78f0d7c98fa11cb5ea456f9203f4de89/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/78f0d7c98fa11cb5ea456f9203f4de89/transformed/jetified-image-labeling-common-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7b3a27958138f16250815cdd0f296edd/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7b3a27958138f16250815cdd0f296edd/transformed/jetified-image-labeling-common-18.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/image-labeling-common/18.0.0/d6d6809ce9434aa65d0812635a8143eb49232755/image-labeling-common-18.0.0-javadoc.jar!/" />

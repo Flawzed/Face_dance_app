@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.mlkit:acceleration:16.0.0-beta1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3f72fc9afea334c4fdd93be3b002fa0e/transformed/jetified-acceleration-16.0.0-beta1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3f72fc9afea334c4fdd93be3b002fa0e/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f6db65379ad43739c302389bb1612a9/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8f6db65379ad43739c302389bb1612a9/transformed/jetified-acceleration-16.0.0-beta1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/acceleration/16.0.0-beta1/ace98f39b262c59be4be4d52b871d1ba5dfff723/acceleration-16.0.0-beta1-javadoc.jar!/" />

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.mlkit:face-detection:16.1.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d75bbf35a2da66598b2b9b618aac2da/transformed/jetified-face-detection-16.1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d75bbf35a2da66598b2b9b618aac2da/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aa4521d0711ce9ba05112ac3e14c5a2a/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aa4521d0711ce9ba05112ac3e14c5a2a/transformed/jetified-face-detection-16.1.5/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/face-detection/16.1.5/ace98f39b262c59be4be4d52b871d1ba5dfff723/face-detection-16.1.5-javadoc.jar!/" />
