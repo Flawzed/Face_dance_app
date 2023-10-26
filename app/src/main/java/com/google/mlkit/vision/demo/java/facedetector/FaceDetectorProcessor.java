@@ -77,20 +77,20 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
       // All landmarks
       int[] landMarkTypes =
           new int[] {
-            //FaceLandmark.MOUTH_BOTTOM,
-           // FaceLandmark.MOUTH_RIGHT,
-           // FaceLandmark.MOUTH_LEFT,
-           // FaceLandmark.RIGHT_EYE,
-           // FaceLandmark.LEFT_EYE,
-          //  FaceLandmark.RIGHT_EAR,
-           // FaceLandmark.LEFT_EAR,
-           // FaceLandmark.RIGHT_CHEEK,
-           // FaceLandmark.LEFT_CHEEK,
+           /* FaceLandmark.MOUTH_BOTTOM,
+            FaceLandmark.MOUTH_RIGHT,
+            FaceLandmark.MOUTH_LEFT,
+            FaceLandmark.RIGHT_EYE,
+            FaceLandmark.LEFT_EYE,
+            FaceLandmark.RIGHT_EAR,
+            FaceLandmark.LEFT_EAR,
+            FaceLandmark.RIGHT_CHEEK,
+            FaceLandmark.LEFT_CHEEK,*/
             FaceLandmark.NOSE_BASE
           };
       String[] landMarkTypesStrings =
           new String[] {
-            "MOUTH_BOTTOM",
+        /*    "MOUTH_BOTTOM",
             "MOUTH_RIGHT",
             "MOUTH_LEFT",
             "RIGHT_EYE",
@@ -98,7 +98,7 @@ public class FaceDetectorProcessor extends VisionProcessorBase<List<Face>> {
             "RIGHT_EAR",
             "LEFT_EAR",
             "RIGHT_CHEEK",
-            "LEFT_CHEEK",
+            "LEFT_CHEEK",*/
             "NOSE_BASE"
           };
       for (int i = 0; i < landMarkTypes.length; i++) {

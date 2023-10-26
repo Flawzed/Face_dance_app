@@ -83,7 +83,7 @@ public final class CameraXLivePreviewActivity extends AppCompatActivity
 
   private static final String OBJECT_DETECTION = "Object Detection";
 
-  private static final String FACE_DETECTION = "Face Detection";
+  private static final String FACE_DETECTION = "Face Tracking";
 
   private static final String SELFIE_SEGMENTATION = "Selfie Segmentation";
 
